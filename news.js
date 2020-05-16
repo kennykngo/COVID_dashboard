@@ -25,7 +25,7 @@ $(document).ready(function () {
       var shorten = source.replace(".com", "");
       var upper = shorten.toUpperCase();
 
-      var card = `<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2" > 
+      var card = `<div class="col-sm-4 col-md-4 col-lg-3 col-xl-3" > 
       <div class="card text-white bg-dark mb-3" style="max-height:600px min-width:300;">
       <div class="card-header">${source}</div>
             <img src="${image}" class="card-img-top" style="max-height:200px" alt="use imagination in lieu of image">
